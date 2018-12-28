@@ -1,0 +1,44 @@
+#属性的配置
+name: itcast
+#对象的配置
+person:
+  name: 吕小布
+  age: 24
+  address: 深圳
+#行内对象的配置
+person1: {name: 吕小布,age: 24,address: 深圳}
+#端口的配置
+server:
+  port: 9999
+  servlet:
+    context-path: /demo1
+#配置Map数据
+map:
+  key1: value1
+  key2: value2
+#配置数组或List集合数据的配置
+city:
+  - beijing
+  - shanghai
+  - chongqing
+  - shenzhen
+#行内数组或List集合数据的配置
+city1: [beijing,shanghai,chongqing,shenzhen]
+#集合中元素是对象形式的配置
+student:
+  - name: 吕小布
+    age: 24
+    address: 深圳
+  - name: 貂小婵
+    age: 18
+    address: 重庆
+#行内集合的中元素是对象形式的配置
+student1: [{name: 吕小布,age: 24,address: 深圳},{name: 貂小婵,age: 18,address: 重庆}]
+#使用注解@ConfigurationProperties映射,方便写配置文件
+#导入依赖
+#  <!--配置@ConfigurationProperties注解的执行器-->
+#  <dependency>
+#  <groupId>org.springframework.boot</groupId>
+#  <artifactId>spring-boot-configuration-processor</artifactId>
+#  <optional>true</optional>
+#  </dependency>

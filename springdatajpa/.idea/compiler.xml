@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jpa_day01_quickstart" />
+        <module name="jpa_day02_springdatajpa" />
+        <module name="jpa_day03_manyTomany" />
+        <module name="jpa_day03_oneTomany" />
+        <module name="jpa_day03_Specifications" />
+        <module name="spring_day01_springboot" />
+        <module name="springboot_demo" />
+        <module name="springboot_jpa" />
+        <module name="springboot_mybatis" />
+        <module name="vue_day01_demo" />
+        <module name="vue_day01_user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jap_day03_springdatajpa" target="1.5" />
+      <module name="jpa_day01_quickstart" target="1.5" />
+      <module name="jpa_day02_springdatajpa" target="1.5" />
+      <module name="jpa_day03_manyTomany" target="1.5" />
+      <module name="jpa_day03_oneTomany" target="1.5" />
+      <module name="jpa_day03_Specifications" target="1.5" />
+      <module name="spring_day01_springboot" target="1.8" />
+      <module name="springboot_demo" target="1.8" />
+      <module name="springboot_jpa" target="1.8" />
+      <module name="springboot_mybatis" target="1.8" />
+      <module name="vue_day01_demo" target="1.7" />
+      <module name="vue_day01_user" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
